@@ -43,7 +43,6 @@ const createForm = () => {
 class WixDefaultCustomElement extends HTMLElement {
   constructor() {
     super();
-    console.log('debug_text:', DEBUG_TEXT);
     console.log('cookies:', document.cookies)
   }
 
