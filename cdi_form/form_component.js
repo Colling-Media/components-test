@@ -47,7 +47,7 @@ class WixDefaultCustomElement extends HTMLElement {
   }
 
   connectedCallback() {
-    this.appendChild(createForm);
+    this.appendChild(createForm());
   }
 }
 customElements.define('wix-default-custom-element', WixDefaultCustomElement);
