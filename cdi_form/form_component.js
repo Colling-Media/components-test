@@ -36,6 +36,12 @@ const createForm = () => {
         form.appendChild(inputElement);
     });
 
+    // Create and append a submit button to the form
+    const submitButton = document.createElement('input');
+    submitButton.setAttribute('type', 'submit');
+    submitButton.setAttribute('value', 'Submit');
+    form.appendChild(submitButton);
+
     // Append the form to the body of the document (or another element if preferred)
     return form
 }
